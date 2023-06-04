@@ -1,0 +1,28 @@
+<!--validations of html 5
+	equired:compulsory
+	email: email address with @ are compulsory
+	url : url adress with htt or https are compulsory
+	pattern: user define validations are allowed
+		fomulas for pattern:\id - digit,\s-string,[]-between,{}-compulsory,*-attend compulsry values
+	examples:
+	mobile:\d(10)-only 10 digit are allowd
+	only char [a-z,A-Z]*
+	pincode:\d{6}
+
+<br><br>------------------------------<br><br><br>------------------------------------------------<br><br>
+
+<!--validation control of html5-->
+<form>
+<input type=text placeholder="name" title="please enter full name here" required><br><br>
+<input type=email placeholder="email" required><br><br>
+<input type=text placeholder="mobile" pattern="\d{10}" title="enter valid mobile no" required><br>
+<input type=text placeholder="country" pattern="[a-z,A-Z]" title="enter country" reqired><br><br>
+<input type=url placeholder="website" required><br><br>
+<input type=text placeholder="pincode" attern="\d{6}" required><br><br>
+rogress: <meter value="30" min="1" max=100></meter><br><br>
+<input type=submit value="confirn">
+</form>
+
+	<form>
+<input type=email placeholder="email" required><br><br>	
+</form>
